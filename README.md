@@ -16,7 +16,7 @@ It automatically calculates invoice totals, supports PDF exports, and provides a
 
 ✅ Manage **Customers** (Create, View, Edit, Delete)  
 ✅ Manage **Products** (CRUD + Stock Tracking)  
-✅ Manage **Invoices** (generate, calculate prices, due dates)
+✅ Manage **Invoices** (generate, calculate prices, due dates)  
 ✅ Automatic **Total Amount Calculation**  
 ✅ **PDF Export** for invoices  
 ✅ Dashboard with **basic statistics** and recent activity  
@@ -35,25 +35,25 @@ It automatically calculates invoice totals, supports PDF exports, and provides a
 
 ## 👥 Team Roles
 
-### 🧱 **Member 1 (Day 1–2):Me   –  *Project Setup*
+### 🧱 Member 1 (Day 1–2):Me   –  *Project Setup*
 - Set up a Laravel project and MySQL configuration.
 - Created migrations for Customers, Products, Invoices, and InvoiceItems.
 - Defined models, relationships, factories, and seeders.
 - Later Contributed to testing and final enhancements(dashboard,alerts,styling).
 
-### 👤 **Member 2 (Day 2 onward):Nourien Mohamed  –  *Customers Module*
+### 👤 Member 2 (Day 2 onward):[Nourien Mohamed](https://github.com/Nourien01)  –  *Customers Module*
 - Developed the Customers module (CRUD).
 - Implemented validation for customer data (e.g., unique email, required fields).
 - Designed Blade templates for listing, adding, editing, and deleting customers.
 - Tested module using dummy customer data for accuracy.
 
-### 🧾 **Member 3 (Day 2 onward):Farid Dehne – *Products Module*
+### 📦 Member 3 (Day 2 onward):[Farid Dehne](https://github.com/FareedDehne) – *Products Module*
 - Developed the Products module (CRUD).
 - Designed Blade templates for listing, adding, editing, and deleting products.
 - Implemented validation for product  data (name,SKU,stock,price).
 - Tested module using dummy product data for accuracy.
 
-### 🧮 **Member 4 (Day 3–4 onward):Amjad Alrays – *Invoices Module*
+### 🧾 Member 4 (Day 3–4 onward):[Amjad Alrays](https://github.com/amjad639) – *Invoices Module*
 
 - Built the Invoices module (customer selection, product selection, totals).
 - Implemented validation (e.g., due date ≥ invoice date).
